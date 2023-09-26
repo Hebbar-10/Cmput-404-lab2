@@ -13,6 +13,6 @@ def get(host, port):
         print(result)
         result = s.recv(BYTES_TO_READ)
 
-    s.close
+    s.close()
 
-get("localhost", 8000)
+get("localhost", 8080)
